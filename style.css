@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed';
+}
+
+html, body{
+    height: 100%;
+}
+
+.card{
+    width: 350px;
+    margin: 20px;
+    background-color: hsl(263, 55%, 52%);
+    padding: 25px 40px;
+    border-radius: 0.5rem;
+}
+
+.card .profile{
+    display: flex;
+}
+
+.card .profile-image{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card .profile-desc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    justify-content: center;
+    
+}
+
+.card .profile-desc h4{
+    margin: 0px;
+    color: hsl(0, 0%, 100%);
+}
+.card .profile-desc h5{
+    margin: 0px;
+    color: hsl(0, 0%, 81%);
+}
+
+.card h3{
+    color:hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+}
+
+.card p{
+    color: hsl(0, 0%, 81%);
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
